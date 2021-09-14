@@ -1,0 +1,6 @@
+C:\Dev\demos\VirginMediaTechExercise\ScenarioApp\ScenarioAppModels\bin\Debug\ScenarioAppModels.dll
+C:\Dev\demos\VirginMediaTechExercise\ScenarioApp\ScenarioAppModels\bin\Debug\ScenarioAppModels.pdb
+C:\Dev\demos\VirginMediaTechExercise\ScenarioApp\ScenarioAppModels\obj\Debug\ScenarioAppModels.csproj.CoreCompileInputs.cache
+C:\Dev\demos\VirginMediaTechExercise\ScenarioApp\ScenarioAppModels\obj\Debug\ScenarioAppModels.dll
+C:\Dev\demos\VirginMediaTechExercise\ScenarioApp\ScenarioAppModels\obj\Debug\ScenarioAppModels.pdb
+C:\Dev\demos\VirginMediaTechExercise\ScenarioApp\ScenarioAppModels\obj\Debug\ScenarioAppModels.csprojAssemblyReference.cache

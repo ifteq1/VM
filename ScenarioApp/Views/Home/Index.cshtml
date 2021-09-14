@@ -1,0 +1,67 @@
+﻿@model ScenarioApp.Models.Home.HomeViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@using (Html.BeginForm("FileUpload", "Home", FormMethod.Post, new { enctype = "multipart/form-data", @class = "form-horizontal", role = "form" }))
+{
+    <div class="row panelFileUpload">
+        <div class="panel panel-default">
+            <div class="panel-body panelFileUploadBody">
+                <div class="col-lg-12 row row-buffer">
+                    <div class="col-lg-offset-3 col-lg-5">
+                        <div class="input-group">
+                            @Html.TextBoxFor(m => m.UploadedFile, new { type = "text", placeholder = "Select .xml scenario file...", @class = "form-control", @id = "fileUploadNameTxt", @readonly = "readonly" })
+                            <span class="input-group-btn">
+                                <button class="btn btn-warning" type="button" id="fileUploadBtn">Upload file</button>
+                                <input type="file" class="hidden" id="fileUploader">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row col-lg-12">
+                    <div id="messagePanel" class="panel panel-primary messagePanel hidden">
+                        <div class="panel-body">
+                            <span>Analysing the data in the .xml, please wait... </span><img src="~/Images/loadinfo.net2.gif" />
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div id="scenarioTableContainer" class="row">
+
+        <table id="scenarioTable"
+               data-pagination="true"
+               data-search="true"
+               data-show-columns="true">
+            <thead class="tableHeader">
+
+                <tr>
+                    <th data-field="ScenarioID">Scenario ID</th>
+                    <th data-field="Name">Name</th>
+                    <th data-field="Surname">Surname</th>
+                    <th data-field="Forename">Forename</th>
+                    <th data-field="UserID">User ID</th>
+                    <th data-field="SampleDateDisplay">Sample Date</th>
+                    <th data-field="CreationDateDisplay">Creation Date</th>
+                    <th data-field="NumMonths">Num Months</th>
+                    <th data-field="MarketID">Market ID</th>
+                    <th data-field="NetworkLayerID">Network Layer ID</th>
+
+                </tr>
+
+            </thead>
+
+        </table>
+
+    </div>
+}

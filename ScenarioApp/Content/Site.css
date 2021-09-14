@@ -1,0 +1,75 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.hidden {
+    display: none;
+}
+
+.headerTextContainer {
+    width: 275px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+}
+
+.dataText {
+    color: #FFFFFF;
+}
+
+.scenarioText {
+    color: #ed8600;
+}
+
+.navbar {
+    background-color: #434649;
+}
+
+.panelFileUpload {
+    margin: 80px 80px 10px 80px;
+}
+
+.panelFileUploadBody {
+    padding: 50px;
+    border: 2px solid #eeeeee;
+}
+
+.panelGreyBackground {
+    background-color: #eeeeee
+}
+
+.row-buffer {
+    margin-bottom: 20px;
+}
+
+.messagePanel {
+    background-color: #337ab7;
+    color: white;
+    font-size: 16px;
+}
+
+.messagePanel span {
+    margin-right: 20px;
+}
+
+.messageSuccessPanel {
+    background-color: #5cb85c;
+    color: white;
+    font-size: 16px;
+}
